@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+table {
+	margin : auto;
+	border-collapse: collapse;
+	max-width: 100%;
+	
+	
+}
+
+th {
+	background-color: lightgrey; 
+	height : 70px;
+	text-align: center;
+	height: 70px;
+}
+
+td {
+	text-align: left;
+}
+
+th, td {
+	padding: 20 px;
+}
+
+tr:hover {
+	background-color: lightgrey;
+}
+
+h1 {
+	text-align:center;
+	
+}
