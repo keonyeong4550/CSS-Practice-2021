@@ -11,17 +11,16 @@ table {
 th {
 	background-color: lightgrey; 
 	height : 70px;
-	text-align: center;
 }
 
 td {
-    text-indent: 20%;
     height: 35px;
     
 }
 
 th, td {
-	padding: 20 px;
+    padding: 20 px;
+    text-align: center;
 }
 
 
@@ -35,4 +34,13 @@ h1 {
 }
 table, td, th {
     border : 1px solid black;
+}
+
+p {
+    text-align: center;
+
+}
+img{
+    width:120px; height:80px;
+
 }
