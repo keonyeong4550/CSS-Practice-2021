@@ -1,46 +1,56 @@
 @charset "UTF-8";
 
+body {
+    background-color: transparent;
+    /* 배경화면색 : 투명 */
+}
+
 table {
-	margin : auto;
-	border-collapse: collapse;
-	width: 40%;
-	
-	
+    margin: auto;
+    border-collapse: collapse;
+    width: 40%;
+
 }
 
 th {
-	background-color: aquamarine; 
-	height : 70px;
+    background-color: aquamarine;
+    height: 70px;
 }
 
 td {
     height: 35px;
-    
+
 }
 
-th, td {
+th,
+td {
     padding: 20 px;
     text-align: center;
 }
 
 
-tr:hover  {
-	background-color: lightgrey;
+tr:hover {
+    background-color: lightgrey;
 }
 
 h1 {
-	text-align:center;
-	
+    text-align: center;
+
 }
-table, td, th {
-    border : 1px solid black;
+
+table,
+td,
+th {
+    border: 1px solid black;
 }
 
 p {
     text-align: center;
 
 }
-img{
-    width:120px; height:80px;
+
+img {
+    width: 120px;
+    height: 80px;
 
 }
