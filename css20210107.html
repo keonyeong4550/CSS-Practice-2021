@@ -9,11 +9,62 @@
 </head>
 
 <body>
+    <h1>display의 inline과 block과 inline-block의 설명</h1>
+    <h2>inline</h2>
+    <p>display 속성이 inline 으로 지정된 엘리먼트는 전후 줄바꿈 없이 한 줄에</p>
+    <p>다른 엘리먼트들과 나란히 배치됩니다.</p>
+    <p>inline 엘리먼트로 [ span, a, em ]태그 등이 있습니다.</p>
+    <p>
+        <h3>
+            예시1
+        </h3>
+    </p>
     before
     <a>A</a>
     <span>SPAN</span>
     <em>EM</em>
     after
+    <p>----------------------------------------------------------------------------------------------</p>
+    <p> inline 엘리먼트르 사용할 때 주의할 점은, </p>
+    <p> width 와 height 속성을 지정해도 무시된다는 점 입니다. </p>
+    <p> 또한 margin과 padding 속성은 <highlight>좌우간격만 반영되고</highlight>, 상하 간격은 반영되지 않습니다.</p>
+
+    <p>----------------------------------------------------------------------------------------------</p>
+    
+
+    <h2>block</h2>
+    <p>display 속성이 block 으로 지정된 엘리먼트는 <highlight> 전후 줄바꿈</highlight>이 들어가서</p>
+    <p>다른 엘리먼트들을 다른 줄로 밀어내고 혼자 한줄을 차지합니다.</p>
+    <p> block 엘리먼트로 [ div, p, h1 ] 태그 등이 있습니다.</p>
+
+
+    <p>
+        <h3> 예시2 </h3>
+    </p>
+    before
+    <h1>H1</h1>
+    <div>DIV</div>
+    <p>P</p>
+    after
+    <p>----------------------------------------------------------------------------------------------</p>
+    <p> block 엘리먼트는 inline 엘리먼트와 달리, [ width, height, margin, padding ] 속성이 모두 반영됩니다.</p>
+    <p>----------------------------------------------------------------------------------------------</p>
+    <h2>inline-block</h2>
+    <p> display 속성이 inline-block 으로 지정된 엘리먼트는 </p>
+    <p> inline 엘리먼트 처럼 전후 줄바꿈 없이 다른 엘리먼트들과 나란히 배치됩니다.</p>
+    <p> 하지만, inline 엘리먼트에서 불가능하던 [ width 와 height ] 속성 지정 및</p>
+    <p> [ margin 과 padding ] 속성의 상하 간격 지정이 가능해집니다.</p>
+    <p> 대표적인 inline-block 엘리먼트로는 [ button 이나 select ] 태그 등이 있습니다.</p>
+
+    <p>
+        <h3> 예시3 </h3>
+    </p>
+    before
+    <a>A</a>
+    <span class="one">SPAN</span>
+    <em>EM</em>
+    after
+
 
 </body>
 

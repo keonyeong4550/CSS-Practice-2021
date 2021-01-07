@@ -5,3 +5,29 @@ span {
     margin: 20px;
     padding: 10px;
 }
+
+div{
+    background: yellow;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+highlight {
+    background: yellow;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+span.one{
+    display: inline-block;
+    background: yellow;
+    width: 200px;
+    height:50px;
+    margin: 20px;
+    padding: 10px;
+
+}
