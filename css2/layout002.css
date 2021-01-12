@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
 body {
-    background-color: transparent;
+    background-color: #353535;
     /* 배경화면색 : 투명 */
+
 }
 
 table {
     margin: auto;
     border-collapse: collapse;
     width: 40%;
+    color: white;
 
 }
 
 th {
-    background-color: aquamarine;
+    background-color: #036635;
     height: 70px;
 }
 
@@ -35,22 +37,28 @@ tr:hover {
 
 h1 {
     text-align: center;
-
 }
 
 table,
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 p {
     text-align: center;
 
 }
+p#d{
+    color: white;
+}
 
 img {
     width: 120px;
     height: 80px;
 
+}
+
+h1 {
+    color: white;
 }
